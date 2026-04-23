@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "reporting_anfrage",
+      "app_id": "69e9f472b5a446e7391ec863",
+      "path": "/rest/apps/69e9f472b5a446e7391ec863/records",
+      "allowed_fields": [
+        "titel",
+        "berichtstyp",
+        "bereich",
+        "zeitraum_von",
+        "zeitraum_bis",
+        "anforderer_vorname",
+        "anforderer_nachname",
+        "anforderer_email",
+        "verantwortlicher_vorname",
+        "verantwortlicher_nachname",
+        "prioritaet",
+        "status",
+        "faelligkeitsdatum",
+        "kennzahlen",
+        "beschreibung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Reporting-Anfrage — Formular"
+    }
+  ]
+}
