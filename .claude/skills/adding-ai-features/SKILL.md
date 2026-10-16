@@ -160,7 +160,7 @@ const data = await safeJsonCompletion([
 
 | Property | Value |
 |----------|-------|
-| Endpoint | `https://my.living-apps.de/litellm/v1/chat/completions` |
+| Endpoint | `AI_ENDPOINT` from `@/lib/origin` — `{LA host}/litellm/v1/chat/completions`, resolved at runtime from the page origin; never spell a host |
 | Model | `default` |
 | Auth | None required |
 | Format | OpenAI-compatible chat completions |
